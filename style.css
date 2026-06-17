@@ -158,3 +158,112 @@ nav a{
     padding: 30px;
     border-radius: 20px;
 }
+.contact{
+    background: #020617;
+    padding: 80px 20px;
+    color: white;
+}
+.contact h2{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+.contact h2 span{
+    color: #00c3ff;
+}
+.contact-text{
+    text-align: center;
+    color: #94a3b8;
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 1.8;
+}
+.contact-container{
+    margin-top: 50px;
+}
+.contact-box{
+    background: #0b1120;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    background: rgba(0, 195, 255, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 15px;
+}
+.contact-box h4{
+    color: #94a3b8;
+    margin-bottom: 8px;
+}
+.contact-box p{
+    font-size: 22px;
+}
+.work-box{
+    background: linear-gradient(to right, rgba(0,195,255,0.15), rgba(0,89,255,0.15));
+    border: 1px solid rgba(0,195,255,0.3);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 40px 0;
+}
+.work-box h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.work-box p{
+    color:#cbd5e1;
+    line-height: 1.8;
+    font-size: 20px;
+}
+.contact-form label{
+    display: block;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    background: #0b1120;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    outline: none;
+}
+.contact-form textarea{
+    height: 180px;
+    resize: none;
+}
+.contact-form button{
+    width: 100%;
+    margin-top: 30px;
+    padding: 18px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(to right, #00c3ff, #0066ff);
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+footer{
+    background: #020617;
+    text-align: center;
+    padding: 30px 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+footer p{
+    color: #94a3b8;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
